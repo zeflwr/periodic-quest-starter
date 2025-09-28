@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background: #333;
+  color: white;
+  padding: 10px;
+}
+
+#elements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.element-card {
+  border: 1px solid #999;
+  border-radius: 6px;
+  width: 100px;
+  margin: 10px;
+  padding: 10px;
+  background: white;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.element-card:hover {
+  transform: scale(1.1);
+  background: #eef;
+}
