@@ -1,0 +1,12 @@
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.tmp
+*.swp
+
+# Node.js (future-proof)
+node_modules/
+dist/
